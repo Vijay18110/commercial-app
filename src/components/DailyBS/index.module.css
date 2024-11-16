@@ -1,0 +1,18 @@
+.dailyBS {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.cardP {
+  margin: 0 10px;
+}

@@ -1,0 +1,34 @@
+.searchBar {
+  border: 1px solid var(--primaryColor);
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  height: 50px;
+}
+
+.inputCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inputCont > input {
+  border-left: 1px solid #e3e3e3;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  padding-left: 20px;
+  width: 250px;
+}
+.inputCont > input:focus {
+  outline: none;
+}
+
+.icon {
+  color: #e3e3e3;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}

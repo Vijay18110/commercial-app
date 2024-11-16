@@ -1,0 +1,138 @@
+.cont {
+    display: flex;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: var(--shadow);
+    border: 1px solid #ececec;
+    z-index: 2;
+    right: 20px;
+    top: 125px;
+}
+
+.acc {
+    display: flex;
+    width: 300px;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.acc>div {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.cont1 {
+    display: flex;
+}
+
+.cont1 .p {
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.acc div:last-child {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.acc div:last-child>p {
+    gap: 40px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom .price {
+    justify-content: space-between;
+    display: flex;
+}
+
+.bottom>div:first-child>span:first-child {
+    color: var(--typoColor);
+}
+
+.bottom>div:first-child>span:last-child {
+    color: var(--primaryColor);
+}
+
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnCont span {
+    height: 48px;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    bottom: -10px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        bottom: -5px;
+    }
+}
+
+.btnCont span button {
+    border-radius: 5px;
+    border: 1px solid var(--primaryColor);
+    box-shadow: var(--shadow);
+    background-color: #fff;
+    color: var(--primaryColor);
+    padding: 10px;
+
+}
+
+.btnCont span:last-child button {
+    background: var(--primaryColor);
+    color: #fff;
+    font-weight: 400;
+    font-family: serif;
+
+    &:hover {
+        border-radius: 5px;
+        border: 1px solid var(--primaryColor);
+        box-shadow: var(--shadow);
+        background-color: #fff;
+        color: var(--primaryColor);
+        padding: 10px;
+    }
+}
+
+.p {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primaryColor);
+}
+
+.acc div p {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imgCont {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.acc p {
+    font-family: serif;
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.cont {
+    background-color: white;
+    padding: 30px 50px;
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    gap: 15px;
+    bottom: -20%;
+    left: 5%;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        bottom: -15%;
+    }
+}
+
+.cont h1 {
+    color: var(--textColor);
+    font-size: 20px;
+}
+
+.h2 {
+    color: var(--typoColor);
+    font-size: large;
+}
+
+.cont div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}

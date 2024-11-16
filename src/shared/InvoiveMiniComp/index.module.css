@@ -1,0 +1,21 @@
+
+
+.ContMiniComp h4{
+    font-size: 16px;
+    margin-bottom: 10px !important;
+    font-family: "Quicksand", sans-serif;
+    color: #253D4E;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.ContMiniComp p{
+    font-size: 14px !important;
+    margin-bottom: 20px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.ContMiniComp strong{
+    font-weight: 500;
+}

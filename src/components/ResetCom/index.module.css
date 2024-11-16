@@ -1,0 +1,90 @@
+.cont {
+    display: flex;
+    margin: 50px auto;
+    gap: 40px;
+    height: 95vh;
+ background-color: white;
+ border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right>h1 {
+    font-size: xx-large;
+}
+
+.right>p>span {
+    color: var(--primaryColor);
+    font-weight: 500;
+}
+
+.rememberpass {
+    display: flex;
+    color: var(--typoColor);
+}
+
+.inputCont>div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    margin-right: 20px;
+
+}
+
+.rememberpass>div {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.right input {
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    height: 64px;
+    box-shadow: none;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.imgCont {
+    width: 100px;
+}
+
+.right button {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 40px;
+    width: 60%;
+    color: #ffffff;
+    border: none;
+    background-color: #253D4E;
+    border-radius: 10px;
+    font-family: "Quicksand", sans-serif;
+    position: relative;
+    bottom: -10px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        bottom: -5px;
+        background: var(--primaryColor);
+    }
+}
+
+.inputCont {
+    display: flex;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: column;
+}

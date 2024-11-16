@@ -1,0 +1,48 @@
+.mainCont {
+    box-sizing: border-box;
+    background-color: rgb(27, 24, 24);
+    background-color: white;
+}
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff000;
+    text-shadow: 0 0 10px #fff000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px gray;
+    width: 130px;
+    height: 130px;
+    border: 1px solid #807f7d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.ring::before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid #fff000;
+    border-left: 3px solid #fff000;
+    top: -2px;
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+    animation: rotate 1s linear 0s infinite;
+}
+
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

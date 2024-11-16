@@ -1,0 +1,32 @@
+.icon {
+  display: flex;
+  align-items: baseline;
+  column-gap: 2px;
+}
+
+.icon>div:last-child {
+  position: relative;
+  transition: all .3s ease-in-out;
+
+}
+
+.left {
+  position: relative;
+  display: flex;
+  align-items: baseline;
+}
+
+.left p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #3bb77e;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+}

@@ -1,0 +1,15 @@
+.Container{
+    padding-top: 50px;
+}
+
+/* .ContentCont{
+    padding: 0 12px;
+} */
+.content{
+    max-width: 1210px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 12px;
+    display: flex;
+}
+

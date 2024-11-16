@@ -1,0 +1,21 @@
+.ul {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  list-style-type: none;
+}
+
+.ul li {
+  cursor: pointer;
+}
+
+.pProducts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.active {
+  color: var(--primaryColor);
+}

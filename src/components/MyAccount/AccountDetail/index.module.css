@@ -1,0 +1,52 @@
+.namecontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+    width: 100%;
+}
+.firstname{
+    width: 50%;
+
+}
+.lastname{
+    width: 50%;
+
+}
+.accountspan{
+    cursor: pointer;
+    color: var(--primaryColor);
+}
+.accountspan:hover{
+    color: var(--yellowColor);
+}
+.accountheading{
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.accountpara{
+    font-size: medium;
+    margin-bottom: 25px;
+}
+
+.Outeinput{
+    width: 100%;
+    padding: 15px 15px ;
+    border-radius: 10px;
+    min-width: 500px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+
+}
+.innerinput{
+    width: 100%;
+    padding: 15px 15px ;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+
+}
+input:focus{
+outline: none;
+}

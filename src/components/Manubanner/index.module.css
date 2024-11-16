@@ -1,0 +1,47 @@
+.banner {
+    width: 400px;
+    height: 250px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 5;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    gap: 20px;
+    left: 30px;
+    top: 10%;
+    position: absolute;
+}
+
+.content>span:nth-child(3) {
+    color: rgb(129, 177, 61)
+}
+
+.content>span:nth-child(1) {
+    color: var(--typoColor);
+}
+
+.content span {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    border-radius: 26px;
+    width: 100%;
+    padding: 12px 22px 14px;
+    background-color: #3BB77E;
+    border: none;
+
+    &:hover {
+        color: dark #ee8f9f;
+    }
+}

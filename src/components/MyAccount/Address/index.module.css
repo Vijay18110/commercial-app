@@ -1,0 +1,23 @@
+.addresscontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+.list{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.list:nth-child(6){
+    color: var(--typoColor);
+}
+.list:nth-child(7){
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+.list:nth-child(7):hover{
+    color: var(--yellowColor);
+}

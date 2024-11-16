@@ -1,0 +1,49 @@
+.cartcont {
+    display: flex;
+    position: relative;
+    background: #F4F6FA;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px 10px;
+
+}
+
+.cartcont :hover.left {
+    top: 15%;
+}
+
+.right {
+    display: flex;
+    padding-left: 50px;
+    flex-direction: column;
+    width: 200px;
+}
+
+.left {
+    position: absolute;
+    margin: 10px;
+    left: -5px;
+    top: 20%;
+    width: 50px;
+    transition: all .3s ease-in;
+
+
+}
+
+.right>span:first-child {
+    color: black;
+    font-weight: 700;
+    font-size: large;
+}
+
+.right>span:nth-child(2) {
+    color: #adadad;
+    font-weight: 700;
+    font-size: large;
+}
+
+.right>span:nth-child(3) {
+    color: #adadad;
+    font-weight: 700;
+    font-size: large;
+}

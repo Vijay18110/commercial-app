@@ -1,0 +1,161 @@
+.contentCont {
+  padding: 20px;
+  background-color: white;
+  box-shadow: var(--shadow);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contt {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  /* height: 350px; */
+  transform: translateX(-50%);
+  width: calc(100% - 30px);
+  transition: all 0.3s ease-in;
+}
+
+.dealCard:hover .contt {
+  bottom: -80px;
+}
+
+.dealCard {
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.productImg {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.productImg>img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contentCont h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--textColor);
+  transition: 0.3s ease-out;
+}
+
+.contentCont h4:hover {
+  color: var(--primaryColor);
+}
+
+.cat {
+  color: #adadad;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.comp {
+  color: #adadad;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.comp span {
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+
+.tag {
+  font-size: 12px;
+  line-height: 1;
+  border-radius: 15px 0 20px 0;
+  color: #fff;
+  padding: 9px 20px 10px 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #67bcee;
+  z-index: 1;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.time>div {
+  height: 80px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+.time>div>span:first-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3bb77e;
+}
+
+.time>div>span:last-child {
+  font-size: 22px;
+  color: var(--textColor);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cPrice {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3bb77e;
+}
+
+.oPrice {
+  font-size: 20px;
+  color: #adadad;
+  margin: 0 0 0 7px;
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.cartBtn {
+  position: relative;
+  display: inline-block;
+  padding: 12px 20px 12px 20px;
+  border-radius: 4px;
+  background-color: var(--primaryColor) !important;
+  font-size: 14px;
+  font-weight: 700;
+  transition: 0.3s ease-in;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  top: 0;
+  margin-top: 10px;
+}
+
+.rating {
+  margin: 5px 0;
+}
+
+.cartBtn:hover {
+  color: #fff !important;
+  background-color: #fdc040 !important;
+  top: -5px;
+  transition: all 0.3s ease;
+}

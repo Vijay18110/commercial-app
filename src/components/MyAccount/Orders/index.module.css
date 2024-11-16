@@ -1,0 +1,28 @@
+.orderheading{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+table,tr{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+th{
+    font-weight: bold;
+}
+th,td{
+    padding: 10px 25px;
+    font-weight: bold;
+
+}
+td{
+    font-size: 14px;
+    font-weight: 500;
+}
+td:last-child{
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+td:last-child:hover{
+    color: var(--yellowColor);
+    cursor: pointer;
+}

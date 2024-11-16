@@ -1,0 +1,46 @@
+.cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    gap: 20px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right h4 {
+    color: var(--typoColor);
+    font-size: xx-large;
+}
+
+.right h1 {
+    color: var(--textColor);
+    font-size: 40px;
+}
+
+.right p {
+    color: var(--typoColor);
+}
+
+.cont h1 {
+    color: var(--textColor);
+    font-size: xx-large;
+}
+
+.cont p {
+    color: var(--typoColor);
+    margin-top: 20px;
+    font-weight: 400;
+}

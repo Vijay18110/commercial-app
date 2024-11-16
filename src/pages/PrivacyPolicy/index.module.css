@@ -1,0 +1,36 @@
+
+
+.singleTitle{
+    margin-bottom: 30px;
+}
+
+.left{
+    width: 75%;
+    padding: 0 12px;
+}
+
+.paddingleft{
+    padding-right: 30px;
+}
+.listed{
+    list-style-type: decimal;
+    margin-bottom: 30px;
+    padding-left: 1em;
+}
+
+.nestedListesd{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+}
+
+.right{
+    width: 25%;
+    padding: 0 12px;
+}
+
+.Input{
+    margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,52 @@
+:root {
+  --primaryColor: #3bb77e;
+  --textColor: #253d4e;
+  --typoColor: #7e7e7e;
+  --yellowColor:rgb(231, 183, 12);
+  --shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+
+}
+span,h2,h3,img,i{
+  cursor: pointer;
+}
+
+::selection {
+  color: #3bb77e !important;
+  font-weight: 500 !important;
+}
+
+*>a {
+  text-decoration: none;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.select__indicator-separator {
+  display: none !important;
+  width: 0 !important;
+}
+
+.react-multi-carousel-dot-list {
+  bottom: 30px !important;
+}
+
+.react-multi-carousel-dot button {
+  height: 15px !important;
+  width: 15px !important;
+  border-width: 1px !important;
+}
+
+.react-multi-carousel-dot--active button {
+  background-color: var(--primaryColor) !important;
+}

@@ -1,0 +1,16 @@
+.dashboardspan{
+    color: var(--primaryColor);
+}
+.dashboardspan:hover{
+    color: var(--yellowColor);
+}
+.dashboardheading{
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+.dashboardpara{
+    font-size: medium;
+    padding: 0%;
+    margin: 0%;
+}

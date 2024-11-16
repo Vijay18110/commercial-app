@@ -1,0 +1,38 @@
+.newsletter {
+  background-color: #fff;
+  max-width: 450px;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  font-size: 30px;
+  color: var(--typoColor);
+}
+
+.newsletter > div {
+  width: 100%;
+}
+
+.newsletter input {
+  height: 64px;
+  box-shadow: none;
+  height: 64px;
+  border: 0;
+  border-radius: 50px 0 0 50px;
+  padding-left: 58px;
+  box-shadow: none;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.newsletter input:focus {
+  outline: none;
+}

@@ -1,0 +1,9 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 50px 0;
+}

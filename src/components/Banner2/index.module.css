@@ -1,0 +1,52 @@
+.banner2cont {
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin:20px 10px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+
+.imgCont {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 500px;
+    height: 400px;
+}
+.imgcontainer{
+    position: absolute;
+    bottom: 0%;
+    height: 300px;
+    right: 0%;
+}
+.content {
+    position: absolute;
+    top: 20%;
+    top: 10%;
+    left: 10%;
+    width: 40%;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+
+}
+
+.content .top>h2 {
+    font-family: Quicksand, sans-serif;
+    font-size: 40px !important;
+    color: rgb(37, 61, 78);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.top>p {
+    margin-top: 10px;
+    color: var(--typoColor);
+    font-size: large;
+}

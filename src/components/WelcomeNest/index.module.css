@@ -1,0 +1,50 @@
+.cont {
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.imgCont {
+    width: 500%;
+}
+
+.imgCont img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.rightContent {
+    display: flex;
+    width: 700%;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.rightContent>h1 {
+    color: var(--textColor);
+    display: flex;
+    font-size: xx-large;
+}
+
+.rightContent p {
+    display: flex;
+    font-size: 14px;
+}
+
+.carousal {
+    width: 550px;
+
+}
+
+.cimgCont {
+    display: flex;
+    width: 180px;
+    gap: 20px;
+    height: 200px;
+}
+
+.cimgCont img {
+    margin: 20px;
+}

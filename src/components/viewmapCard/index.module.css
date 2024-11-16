@@ -1,0 +1,35 @@
+.cardCont {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    background-color: var(--primaryColor);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: medium;
+    position: relative;
+    transition: all .3s;
+    bottom: -20px;
+
+    &:hover {
+        background-color: rgb(241, 241, 14);
+        bottom: -15px;
+        color: var(--primaryColor);
+        font-weight: 900;
+    }
+}
+
+.cardCont>h1 {
+    color: var(--primaryColor);
+    font-weight: 900;
+    font-size: x-large;
+}

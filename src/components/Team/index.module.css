@@ -1,0 +1,82 @@
+.cont {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px auto;
+
+}
+
+.cont>div h1 {
+    font-size: xx-large;
+}
+
+.main {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left span {
+    color: var(--primaryColor);
+    font-weight: 600;
+}
+
+.left h1 {
+    color: var(--textColor);
+    font-size: 100px;
+}
+
+.left p {
+    color: var(--typoColor);
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.imgCont1,
+.imgCont2 {
+    position: 15px;
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.imgCont1 img {
+    border-radius: 15px;
+}
+
+.imgCont2 img {
+    border-radius: 15px;
+}
+
+.btn {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    background-color: var(--primaryColor);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -20px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: rgb(245, 183, 14);
+        color: var(--primaryColor);
+        bottom: -15px;
+        font-weight: 800;
+    }
+}

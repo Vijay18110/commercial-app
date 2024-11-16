@@ -1,0 +1,63 @@
+.blogcatcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 20px;
+    column-gap: 40px;
+}
+.leftcontainer{
+    padding: 0 100px;
+    width: 70%;
+}
+.singlepost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 20px;
+    column-gap: 40px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.author{
+    height: 30px;
+    width: 30px;
+}
+.authorcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.bookmark{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    padding: 0px 10px;
+}
+.singlepostspan{
+    color: var(--primaryColor);
+    font-size: x-large;
+}
+.singlepostspan:hover{
+    color: var(--yellowColor);
+}
+.singlepostheading{
+    font-size: 30px;
+    margin: 15px 0;
+}
+.authorspan{
+    color: var(--primaryColor);
+}
+.authorspan:hover{
+    color: var(--yellowColor);
+}

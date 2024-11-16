@@ -1,0 +1,26 @@
+.cont {
+    display: flex;
+    padding: 2rem 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: var(--shadow);
+    border: 1px solid #ececec;
+    z-index: 2;
+    right: 20px;
+    top: 125px;
+}
+
+.acc {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.acc p {
+    font-family: serif;
+    font-size: 12px;
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}

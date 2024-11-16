@@ -1,0 +1,54 @@
+.li > a,
+.li > div {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.li > div > .span2 {
+  color: #3bb77e;
+}
+
+.li {
+  border-right: 1px solid #7e7e7e;
+  padding: 0 10px 0 0;
+}
+
+.li:last-child {
+  border-right: none;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-bottom: 1px solid #ececec;
+}
+
+.content > p {
+  color: #7e7e7e;
+}
+
+.left,
+.right {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.iconCont {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.span1{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
